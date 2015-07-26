@@ -1,7 +1,11 @@
 .gradle
 /local.properties
 /.idea/workspace.xml
+/.idea/gradle.xml
 /.idea/libraries
 .DS_Store
 /build
 /captures
+
+# do not provide api key publicly
+app/src/release/res/values/google_maps_api.xml
